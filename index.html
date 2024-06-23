@@ -15,14 +15,15 @@
 
   <meta property="og:title" content="Daya Shankar | chdayasingh | Frontend Web Developer" />
   <meta property="og:site_name" content="Daya Portfolio Website" />
-  <!-- <meta property="og:url" content="https://www.rammaheshwari.com/" /> -->
   <meta property="og:description"
     content="A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product" />
   <meta property="og:type" content="website" />
   <meta property="og:image" content="https://i.ibb.co/C8Wnkrt/pretty-snap-2022-3-29-16-11.png" />
 
+  <link rel="stylesheet" href="css/style.css">
   <link href='https://d33wubrfki0l68.cloudfront.net/css/134159683fc0e467a64ae99e3aa3783a3daaf7e2/css/style.css'
     rel='stylesheet' />
+
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -102,12 +103,14 @@
   </header>
   <section class="home-hero">
     <div class="home-hero__content">
-      <h1 class="heading-primary">Hey, I'm Daya Chaudhary</h1>
+      <h1 class="heading-primary">
+        <div class="typing-demo">
+          Hey, I'm Daya Chaudhary.</div>
+      </h1>
       <div class="home-hero__info">
         <p class="text-primary">
-          A Frontend focused Web Developer building the Frontend of Websites
-          and Web Applications that leads to the success of the overall
-          product
+          A passionate MCA student with a background in BSc Computer Science. My primary interests lie in
+          Java and JavaScript | UI and UX
         </p>
       </div>
       <div class="home-hero__cta">
@@ -220,27 +223,28 @@
       <h2 class="heading heading-sec heading-sec__mb-bg">
         <span class="heading-sec__main">Projects</span>
         <span class="heading-sec__sub">
-          Here you will find some of the personal and clients projects that I
-          created with each project containing its own case study
+          Here you will find some of the personal projects
         </span>
       </h2>
 
-      <div class="projects__content">
-        <div class="projects__row">
-          <div class="projects__row-img-cont">
-            <img
-              src="https://d33wubrfki0l68.cloudfront.net/19c708670a1f21231c1e2efa6ba38dbf52b15343/3237e/assets/jpeg/dopefolio.jpeg"
-              alt="Software Screenshot" class="projects__row-img" loading="lazy" />
+      <div class="projects-categories">
+        <div class="grid-container-for-p-catagories">
+          <div class="box python">
+            <h2><a href="">Python Projects</a></h2>
           </div>
-          <div class="projects__row-content">
-            <h3 class="projects__row-content-title">Dopefolio</h3>
-            <p class="projects__row-content-desc">
-              Dopefolio is a successful Open-Source project that I created which have been featured on
-              some of the biggest tech sites like CSS-Tricks, Hostinger, etc & used by thousands of developers globally
-            </p>
-            <a class='btn btn--med btn--theme dynamicBgClr' href='/project-1' target='_blank'>Case Study</a>
+          <div class="box frontend">
+            <h2>Frontend Projects</h2>
+          </div>
+          <div class="box java">
+            <h2>Java Projects</h2>
+          </div>
+          <div class="box full-project">
+            <h2>Full Projects below</h2>
           </div>
         </div>
+      </div>
+
+      <div class="projects__content">
         <div class="projects__row">
           <div class="projects__row-img-cont">
             <img
@@ -290,6 +294,9 @@
           </div>
         </div>
       </div>
+
+
+
     </div>
   </section>
   <section id="contact" class="contact sec-pad dynamicBg">
@@ -380,7 +387,7 @@
     </div>
   </footer>
 
-  <script src='https://d33wubrfki0l68.cloudfront.net/js/96f5c0d4b9bdbf07570efd8e94cb7db7a5191a01/index.js'></script>
+  <script src='js/index.js'></script>
 
   <!-- <script src="//code.tidio.co/hkirvl5pqs5cjjawh11xutnzjgtg9tfi.js" async></script> -->
 </body>
